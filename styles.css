@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pagina1 {
+    background-image: url("./Fotosweb/10.jpg");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+    background-attachment: fixed; /*MIRAR SI LA BARRA BAJA CON ESTO*/
+    position: fixed;
+}
+.space, .space2, .nav{
+    display: flex;
+}
+
+.space {
+    flex: 1;
+}
+
+.space2 {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #12353D;
+    font-size: 1.2rem;
+}
+
+main {
+    height: 100vh;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 25%;
+    padding: 0px 40px;
+    min-height: 90vh;
+    align-items: center;
+}
+
+.intro-text h1 {
+    font-size: 4rem;
+    color: #12353D;
+    margin: 150px 0px;
+    margin-left: 80px;
+}
+
+.intro-text p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+p span {
+    display: block;
+  }
+
+.intro-text span {
+    font-size: 55px;
+}
+
+.empieza {
+    padding: 50px 0px 0px 0px;
+    margin: 0px 68px 0px 0px;
+}
+
+.empieza-ya {
+    border: 2px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.pagina2 {
+    background-image: url("./Fotosweb/lanzarote2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.presentation2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 25%;
+    padding: 0px 40px;
+    min-height: 100vh;
+    align-items: center;
+    position: relative;
+}
+
+.intro-text2 h2 {
+    font-size: 5rem;
+    color: #216685;
+    margin: 250px 50px 150px 0px;
+    margin-left: 1200px;
+    position: absolute;
+    font-weight: normal;
+}
+
+.intro-text2 p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #216685;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 350px;
+    width: 500px;
+}
+
+p span {
+    display: block;
+  }
+
+.intro-text2 span {
+    font-size: 55px;
+}
+
+.empieza2 {
+    padding: 50px 0px 0px 0px;
+    margin: 310px 0px 0px 850px;
+    position: absolute;
+}
+
+.empieza-ya2 {
+    border: 2px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
