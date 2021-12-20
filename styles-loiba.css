@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    background-image: url(/Fotosweb/background1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+    background-attachment: fixed; /*MIRAR SI LA BARRA BAJA CON ESTO*/
+    position: fixed;
+}
+.space, .space2, .nav{
+    display: flex;
+}
+
+.space {
+    flex: 1;
+}
+
+.space2 {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #12353D;
+    font-size: 1.2rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+ 
+}
+
+.islote {
+    display: flex;
+    justify-content: center;
+}
+
+.islote img {
+    display: flex;
+    height: 250px;
+    width: 350px;
+}
+
+.islote-text {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 120px;
+}
+
+.islote-text p {
+    width: 350px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.acantilado {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+}
+
+.acantilado img {
+    display: flex;
+    height: 250px;
+    width: 350px;
+}
+
+.acantilado-text {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.acantilado-text p {
+    width: 350px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.banco {
+    display: flex;
+    justify-content: center;
+}
+
+.banco img {
+    display: flex;
+    height: 250px;
+    width: 350px;
+}
+
+.banco-text {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 120px;
+}
+
+.banco-text p {
+    width: 350px;
+}
